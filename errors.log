@@ -1,0 +1,16 @@
+[2026-02-26T02:02:37] INVALID INPUT: "NO ARGUMENTS"
+InsufficientArgumentsException: Usage: java LibraryBookTracker <catalogFile.txt> <operationArgument>
+[2026-02-26T02:05:38] INVALID INPUT: "catalog.pdf"
+InvalidFileNameException: First argument must end with .txt
+[2026-02-26T02:05:38] INVALID INPUT: "hello"
+InvalidFileNameException: First argument must end with .txt
+[2026-02-26T02:16:15] INVALID INPUT: "Bread Baking Basics:Home Baker:123ABC4567890:3"
+InvalidISBNException: ISBN must contain digits only
+[2026-02-26T02:17:27] INVALID INPUT: "Quick Meals:Chef Dina:9780316420460"
+MalformedBookEntryException: New book record must be: title:author:isbn:copies
+[2026-02-26T02:19:20] INVALID INPUT: "9780393081084"
+DuplicateISBNException: Duplicate ISBN found in catalog: 9780393081084
+[2026-02-26T02:20:05] INVALID INPUT: "Healthy Cooking:Chef Amal:9780062316110:0"
+MalformedBookEntryException: Copies must be positive
+[2026-02-26T02:23:17] INVALID LINE: "Broken Recipe Book:Chef Lina:123ABC4567890:3"
+InvalidISBNException: ISBN must contain digits only
